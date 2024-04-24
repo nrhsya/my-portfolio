@@ -9,70 +9,70 @@
         @vite(['resources/js/app.js'])
     </head>
 
+    {{-- navbar --}}
+    <nav class="bg-white sticky border border-white rounded-lg top-5 z-10 me-24 ms-24 mt-5 p-3">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                        Icon when menu is closed.
+
+                        Menu open: "hidden", Menu closed: "block"
+                        -->
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <!--
+                        Icon when menu is open.
+
+                        Menu open: "block", Menu closed: "hidden"
+                        -->
+                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                        {{-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> --}}
+                        <a href="#" class="font-extrabold text-4xl text-black">Nur Hasya</a>
+                    </div>
+                </div>
+
+                <div class="relative ml-3">
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex space-x-7">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <a href="#contact" class="text-black hover:black hover:text-black rounded-md px-3 py-2 text-xl font-medium">About</a>
+                            <a href="#work" class="text-black hover:black hover:text-black rounded-md px-3 py-2 text-xl font-medium">Work Experiences</a>
+                            <a href="#project" class="text-black hover:black hover:text-black rounded-md px-3 py-2 text-xl font-medium">Projects</a>
+                            {{-- <a href="#skill" class="text-black hover:black hover:text-black rounded-md px-3 py-2 text-xl font-medium">Skills</a> --}}
+                            <a href="#about" class="bg-gray-900 text-white rounded-md px-3 py-2 text-xl font-medium" aria-current="page">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="#about" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">About</a>
+                <a href="#work" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Work Experiences</a>
+                <a href="#project" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+                <a href="#skill" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Skills</a>
+                <a href="#contact" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
     <body class="bg-black">
     {{-- <body class="bg-gradient-to-r from-black via-slate-500 to-transparent"> --}}
-        {{-- navbar --}}
-        <nav class="bg-black sticky top-0 z-10">
-            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                <div class="relative flex h-16 items-center justify-between">
-                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        <!-- Mobile menu button-->
-                        <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                            <span class="absolute -inset-0.5"></span>
-                            <span class="sr-only">Open main menu</span>
-                            <!--
-                            Icon when menu is closed.
-
-                            Menu open: "hidden", Menu closed: "block"
-                            -->
-                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                            </svg>
-                            <!--
-                            Icon when menu is open.
-
-                            Menu open: "block", Menu closed: "hidden"
-                            -->
-                            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                        <div class="flex flex-shrink-0 items-center">
-                            {{-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> --}}
-                            <a href="#" class="font-extrabold text-4xl text-white">Nur Hasya</a>
-                        </div>
-                    </div>
-
-                    <div class="relative ml-3">
-                        <div class="hidden sm:ml-6 sm:block">
-                            <div class="flex space-x-7">
-                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                                <a href="#about" class="bg-gray-900 text-white rounded-md px-3 py-2 text-xl font-medium" aria-current="page">About</a>
-                                <a href="#work" class="text-white hover:bg-white hover:text-black rounded-md px-3 py-2 text-xl font-medium">Work Experiences</a>
-                                <a href="#project" class="text-white hover:bg-white hover:text-black rounded-md px-3 py-2 text-xl font-medium">Projects</a>
-                                <a href="#skill" class="text-white hover:bg-white hover:text-black rounded-md px-3 py-2 text-xl font-medium">Skills</a>
-                                <a href="#contact" class="text-white hover:bg-white hover:text-black rounded-md px-3 py-2 text-xl font-medium">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mobile menu, show/hide based on menu state. -->
-            <div class="sm:hidden" id="mobile-menu">
-                <div class="space-y-1 px-2 pb-3 pt-2">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="#about" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">About</a>
-                    <a href="#work" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Work Experiences</a>
-                    <a href="#project" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-                    <a href="#skill" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Skills</a>
-                    <a href="#contact" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact Me</a>
-                </div>
-            </div>
-        </nav>
-
         {{-- home --}}
         <section id="about">
             <div
@@ -203,13 +203,12 @@
         </section> --}}
 
         {{-- work experiences --}}
-        <section class="h-screen" id="work">
+        {{-- <section class="h-screen" id="work">
             <div>
                 <div class="flex justify-center place-items-center mb-5">
                     <h1 class="text-white font-extrabold text-5xl">Work Experiences</h1>
                 </div>
 
-                {{-- accordion --}}
                 <div x-data="{
                     activeAccordion: '',
                     setActiveAccordion(id) {
@@ -358,7 +357,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         {{-- projects --}}
         <section class="h-screen" id="project">
@@ -370,10 +369,12 @@
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
-                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
                                 <div>
-                                    <p class="text-white">MySyarikat Jobs is a job portal designed to help job seekers and employers to connect.</p>
-                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md">View</a>
+                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
+                                </div>
+                                <div>
+                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
                                 </div>
                             </div>
                         </div>
@@ -404,7 +405,7 @@
                     {{-- php --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/php.svg') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/php.svg') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://www.php.net/" class="bg-white text-black py-2 px-4 rounded-md">php</a>
@@ -416,7 +417,7 @@
                     {{-- laravel --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/laravel.png') }}" class="w-full h-auto" />
+                            <img src="{{ asset('images/laravel.png') }}" class="w-60" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://laravel.com/" class="bg-white text-black py-2 px-4 rounded-md">Laravel</a>
@@ -428,7 +429,7 @@
                     {{-- mysql --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/mysql.png') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/mysql.png') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://www.mysql.com/" class="bg-white text-black py-2 px-4 rounded-md">MySQL</a>
@@ -440,7 +441,7 @@
                     {{-- alpine js --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/alpinejs.svg') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/alpinejs.svg') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://alpinejs.dev/" class="bg-white text-black py-2 px-4 rounded-md">Alpine JS</a>
@@ -452,7 +453,7 @@
                     {{-- laravel livewire --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/livewire.png') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/livewire.png') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://livewire.laravel.com/" class="bg-white text-black py-2 px-4 rounded-md">Livewire</a>
@@ -464,7 +465,7 @@
                     {{-- laravel filament --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/filament.png') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/filament.png') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://filamentphp.com/" class="bg-white text-black py-2 px-4 rounded-md">Filament</a>
@@ -476,7 +477,7 @@
                     {{-- bootstrap --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/bootstrap.png') }}" class="w-full h-auto" />
+                            <img src="{{ asset('images/bootstrap.png') }}" class="w-60" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://tailwindcss.com/" class="bg-white text-black py-2 px-4 rounded-md">Bootstrap</a>
@@ -488,7 +489,7 @@
                     {{-- tailwind --}}
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
-                            <img src="{{ asset('images/tailwind.png') }}" class="w-full h-auto p-9" />
+                            <img src="{{ asset('images/tailwind.png') }}" class="w-60 p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                                 <div>
                                     <a href="https://www.php.net/" class="bg-white text-black py-2 px-4 rounded-md">Tailwind CSS</a>
