@@ -10,7 +10,7 @@
     </head>
 
     {{-- navbar --}}
-    <nav class="bg-white sticky border border-white rounded-lg top-5 z-30 me-24 ms-24 mt-5 p-3">
+    <nav id="navbar" class="bg-white sticky border border-white rounded-lg top-5 z-30 me-24 ms-24 mt-5 p-3">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -180,9 +180,112 @@
             </div>
         </section>
 
-        {{-- letak experience, skills, links dekat sini, buat belah kiri static, belah kanan scrollable --}}
-        <section class="h-screen bg-white" id="contact">
-            <div class="p-5">
+        {{-- work experiences --}}
+        <section id="contact">
+            <div class="container">
+                <section class="one clearfix">
+                    <div class="left">
+                        {{-- experience 1 --}}
+                        <div>
+                            <div class="flex">
+                                <div>
+                                    <span class="text-gray-400">March 2023 - present</span>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
+                                    <span class="text-gray-400">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </span>
+                                    <div>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- experience 2 --}}
+                        <div>
+                            <div class="flex">
+                                <div>
+                                    <span class="text-gray-400">March 2023 - present</span>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
+                                    <span class="text-gray-400">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </span>
+                                    <div>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- experience 3 --}}
+                        <div>
+                            <div class="flex">
+                                <div>
+                                    <span class="text-gray-400">March 2023 - present</span>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
+                                    <span class="text-gray-400">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </span>
+                                    <div>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-blue-200 px-2 py-1 text-xs font-medium text-blue-900 ring-1 ring-inset ring-green-600/20">Tailwind CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- experience 4 --}}
+                        <div>
+                            <div class="flex">
+                                <div>
+                                    <span class="text-gray-400">March 2023 - present</span>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
+                                    <span class="text-gray-400">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </span>
+                                    <div>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-blue-200 px-2 py-1 text-xs font-medium text-blue-900 ring-1 ring-inset ring-green-600/20">Tailwind CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- <div></div>
+                        <div></div>
+                        <div></div> --}}
+                    </div>
+                    <div class="right">
+                        <div class="right-child">
+                            {{-- <img src="{{ asset('images/experience.png') }}" /> --}}
+                            <h2 class="text-black py-10 font-bold">Work Experiences</h2>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="bottom"></div>
+            </div>
+            {{-- <div class="p-5">
                 <div class="flex">
                     <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
                         <img src="{{ asset('images/experience.png') }}" />
@@ -192,7 +295,7 @@
                         <span>text</span>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </section>
 
         {{-- about --}}
@@ -608,19 +711,70 @@
         </section> --}}
 
         {{-- contact me --}}
-        <section class="h-screen bg-white" id="contact">
+        {{-- <section class="h-screen bg-white" id="contact">
             <div>
                 <div class="flex justify-center place-items-center">
                     <h1 class="text-black font-extrabold text-5xl mb-5">Contact Me</h1>
                 </div>
                 <div class="flex justify-center">
-                    {{-- contact details --}}
+                    <!-- contact details -->
                     <div></div>
 
-                    {{-- contact form --}}
+                    <!-- contact form -->
                     <div></div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+
+        <script>
+            window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition > 200) { // Change this value to your desired scroll height
+                navbar.classList.add('hidden');
+            } else {
+                navbar.classList.remove('hidden');
+            }
+        });
+        </script>
+
+        <script>
+            window.addEventListener('scroll', reOrder);
+            window.addEventListener('resize', reOrder);
+
+            function reOrder() {
+                var mq = window.matchMedia("(min-width: 992px)");
+                var rightChild = document.querySelector('.right-child');
+                var rightChildHeader = rightChild.querySelector('h2');
+                var one = document.querySelector('.one');
+                var left = document.querySelector('.left');
+
+                if (mq.matches) {
+                    rightChild.classList.add('customm');
+                    // rightChildHeader.textContent = 'Work Experiences';
+
+                    var scroll = window.pageYOffset || document.documentElement.scrollTop;
+                    var topContent = one.offsetTop - 25;
+                    var sectionHeight = left.offsetHeight;
+                    var rightHeight = rightChild.offsetHeight;
+                    var bottomContent = topContent + sectionHeight - rightHeight - 45;
+
+                    if (scroll > topContent && scroll < bottomContent) {
+                        rightChild.classList.remove('posAbs');
+                        rightChild.classList.add('posFix');
+                    } else if (scroll > bottomContent) {
+                        rightChild.classList.remove('posFix');
+                        rightChild.classList.add('posAbs');
+                    } else if (scroll < topContent) {
+                        rightChild.classList.remove('posFix');
+                    }
+                } else {
+                    rightChild.classList.remove('customm', 'posAbs', 'posFix');
+                    rightChildHeader.textContent = 'fixed';
+                }
+            }
+        </script>
+
     </body>
 </html>
