@@ -10,7 +10,7 @@
     </head>
 
     {{-- navbar --}}
-    <nav class="bg-white sticky border border-white rounded-lg top-5 z-10 me-24 ms-24 mt-5 p-3">
+    <nav class="bg-white sticky border border-white rounded-lg top-5 z-30 me-24 ms-24 mt-5 p-3">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -157,16 +157,39 @@
                                 I am a Full Stack Web Developer
                             </span>
                         </div>
-                        <button class=" mt-4 align-middle select-none font-sans font-bold text-center uppercase
-                            transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none
-                            text-xs py-3 px-6 rounded-lg bg-white text-black shadow-md shadow-gray-900/10
-                            hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
-                            Contact Me
-                        </button>
+                        <div class="flex gap-5">
+                            <button class="mt-4 align-middle select-none font-sans font-bold text-center uppercase
+                                transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none
+                                text-xs py-3 px-6 rounded-lg bg-white text-black shadow-md shadow-gray-900/10
+                                hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
+                                Contact Me
+                            </button>
+                            <button onclick="window.print()" class="mt-4 align-middle select-none font-sans font-bold text-center uppercase outline
+                                transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none
+                                text-xs py-3 px-6 rounded-lg bg-black text-white shadow-md shadow-gray-900/10
+                                hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">
+                                Download Resume
+                            </button>
+                        </div>
                     </div>
 
                     <div>
                         <img class="h-96" src="{{ asset('images/avatar2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- letak experience, skills, links dekat sini, buat belah kiri static, belah kanan scrollable --}}
+        <section class="h-screen bg-white" id="contact">
+            <div class="p-5">
+                <div class="flex">
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <img src="{{ asset('images/experience.png') }}" />
+                    </div>
+
+                    <div>
+                        <span>text</span>
                     </div>
                 </div>
             </div>
@@ -361,12 +384,95 @@
 
         {{-- projects --}}
         <section class="h-screen" id="project">
-            <div>
+            <div class="mt-5">
                 <div class="flex justify-center place-items-center mb-5">
                     <h1 class="text-white font-extrabold text-5xl">Projects</h1>
                 </div>
-                <div class="flex gap-10 justify-center">
-                    <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
+                {{-- <div class="flex gap-10 justify-center"> --}}
+                <div class="flex justify-center">
+                    <div
+                        x-data="{
+                            tabSelected: 1,
+                            tabId: $id('tabs'),
+                            tabButtonClicked(tabButton){
+                                this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+                                this.tabRepositionMarker(tabButton);
+                            },
+                            tabRepositionMarker(tabButton){
+                                this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
+                                this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
+                                this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
+                            },
+                            tabContentActive(tabContent){
+                                return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+                            }
+                        }"
+
+                        x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="w-full">
+
+                        {{-- tab labels --}}
+                        <div x-ref="tabButtons" class="relative inline-grid items-center justify-center w-full h-10 grid-cols-3 p-1 text-black bg-gray-400 rounded-lg select-none">
+                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Laravel</button>
+                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Tailwind CSS</button>
+                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Bootstrap</button>
+                            <div x-ref="tabMarker" class="absolute left-0 z-10 w-1/2 h-full duration-300 ease-out" x-cloak>
+                                <div class="w-full h-full bg-white rounded-md shadow-sm"></div>
+                            </div>
+                        </div>
+
+                        {{-- tab contents --}}
+                        <div class="relative w-full mt-5">
+                            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative">
+                                <div class="flex gap-5">
+                                    <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
+                                        <div class="relative">
+                                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
+                                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
+                                                <div>
+                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
+                                                </div>
+                                                <div>
+                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
+                                        <div class="relative">
+                                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
+                                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
+                                                <div>
+                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
+                                                </div>
+                                                <div>
+                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" x-cloak>
+                                <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
+                                    <div class="relative">
+                                        <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
+                                        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
+                                            <div>
+                                                <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
+                                            </div>
+                                            <div>
+                                                <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    {{-- <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
                             <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
@@ -378,7 +484,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                     {{-- <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
@@ -396,13 +502,13 @@
         </section>
 
         {{-- skills --}}
-        <section class="h-screen" id="skill">
+        {{-- <section class="h-screen" id="skill">
             <div>
                 <div class="flex justify-center place-items-center">
                     <h1 class="text-white font-extrabold text-5xl mb-5">My Skills</h1>
                 </div>
                 <div class="flex flex-wrap gap-10 justify-center">
-                    {{-- php --}}
+                    <!-- php -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/php.svg') }}" class="w-60 p-9" />
@@ -414,7 +520,7 @@
                         </div>
                     </div>
 
-                    {{-- laravel --}}
+                    <!-- laravel -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/laravel.png') }}" class="w-60" />
@@ -426,7 +532,7 @@
                         </div>
                     </div>
 
-                    {{-- mysql --}}
+                    <!-- mysql -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/mysql.png') }}" class="w-60 p-9" />
@@ -438,7 +544,7 @@
                         </div>
                     </div>
 
-                    {{-- alpine js --}}
+                    <!-- alpine js -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/alpinejs.svg') }}" class="w-60 p-9" />
@@ -450,7 +556,7 @@
                         </div>
                     </div>
 
-                    {{-- laravel livewire --}}
+                    <!-- laravel livewire -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/livewire.png') }}" class="w-60 p-9" />
@@ -462,7 +568,7 @@
                         </div>
                     </div>
 
-                    {{-- laravel filament --}}
+                    <!-- laravel filament -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/filament.png') }}" class="w-60 p-9" />
@@ -474,7 +580,7 @@
                         </div>
                     </div>
 
-                    {{-- bootstrap --}}
+                    <!-- bootstrap -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/bootstrap.png') }}" class="w-60" />
@@ -486,7 +592,7 @@
                         </div>
                     </div>
 
-                    {{-- tailwind --}}
+                    <!-- tailwind -->
                     <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
                         <div class="relative">
                             <img src="{{ asset('images/tailwind.png') }}" class="w-60 p-9" />
@@ -497,27 +603,15 @@
                             </div>
                         </div>
                     </div>
-
-
-                    {{-- <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" class="w-full h-auto" />
-                        </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">Product Name</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">View Product</button>
-                        </div>
-                    </div> --}}
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         {{-- contact me --}}
-        <section class="h-screen" id="contact">
+        <section class="h-screen bg-white" id="contact">
             <div>
                 <div class="flex justify-center place-items-center">
-                    <h1 class="text-white font-extrabold text-5xl mb-5">Contact Me</h1>
+                    <h1 class="text-black font-extrabold text-5xl mb-5">Contact Me</h1>
                 </div>
                 <div class="flex justify-center">
                     {{-- contact details --}}
