@@ -197,10 +197,10 @@
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry
                                     </span>
                                     <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
                                     </div>
                                 </div>
                             </div>
@@ -218,10 +218,10 @@
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry
                                     </span>
                                     <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
                                     </div>
                                 </div>
                             </div>
@@ -239,11 +239,11 @@
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry
                                     </span>
                                     <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
-                                        <span class="inline-flex items-center rounded-md bg-blue-200 px-2 py-1 text-xs font-medium text-blue-900 ring-1 ring-inset ring-green-600/20">Tailwind CSS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Tailwind CSS</span>
                                     </div>
                                 </div>
                             </div>
@@ -261,11 +261,11 @@
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry
                                     </span>
                                     <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
-                                        <span class="inline-flex items-center rounded-md bg-blue-200 px-2 py-1 text-xs font-medium text-blue-900 ring-1 ring-inset ring-green-600/20">Tailwind CSS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Tailwind CSS</span>
                                     </div>
                                 </div>
                             </div>
@@ -278,24 +278,14 @@
                     <div class="right">
                         <div class="right-child">
                             {{-- <img src="{{ asset('images/experience.png') }}" /> --}}
-                            <h2 class="text-black py-10 font-bold">Work Experiences</h2>
+                            <h2 class="text-white text-right py-10 font-bold text-5xl">Experiences</h2>
+                            <span class="text-white text-right">These are the projects I have worked on</span>
                         </div>
                     </div>
                 </section>
 
                 <div class="bottom"></div>
             </div>
-            {{-- <div class="p-5">
-                <div class="flex">
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <img src="{{ asset('images/experience.png') }}" />
-                    </div>
-
-                    <div>
-                        <span>text</span>
-                    </div>
-                </div>
-            </div> --}}
         </section>
 
         {{-- about --}}
@@ -328,163 +318,6 @@
             </div>
         </section> --}}
 
-        {{-- work experiences --}}
-        {{-- <section class="h-screen" id="work">
-            <div>
-                <div class="flex justify-center place-items-center mb-5">
-                    <h1 class="text-white font-extrabold text-5xl">Work Experiences</h1>
-                </div>
-
-                <div x-data="{
-                    activeAccordion: '',
-                    setActiveAccordion(id) {
-                    this.activeAccordion = (this.activeAccordion == id) ? '' : id
-                    }
-                    }" class="relative mx-auto overflow-hidden text-sm font-normal bg-white border border-gray-200 divide-y divide-gray-200 rounded-md w-6/12">
-                    <div x-data="{ id: $id('accordion') }" class="cursor-pointer group">
-                        <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-4 text-left select-none group-hover:underline">
-                            <span class="font-bold">Web Developer at Byond Tech Global Berhad</span>
-                            <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </button>
-                        <div x-show="activeAccordion==id" x-collapse x-cloak>
-                            <div class="p-4 pt-0 opacity-70">
-                                <div class="flex gap-x-5">
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                                        </svg>
-                                        <span>Kuala Lumpur, Malaysia</span>
-                                    </div>
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                                        </svg>
-                                        <span>byond.tech</span>
-                                    </div>
-                                </div>
-                                <ul class="list-disc mb-4 px-4">
-                                    <li>
-                                        Implemented Bootstrap to ensure a responsive and visually appealing layout that adapts seamlessly across devices, providing an intuitive experience for both candidates and employers.
-                                    </li>
-                                    <li>
-                                        Leveraged Alpine.js to enhance frontend interactivity, enabling dynamic user interactions without the need for complex JavaScript frameworks.
-                                    </li>
-                                    <li>
-                                        Utilized Laravel's robust backend capabilities to handle user authentication, job postings, candidate profiles, and employer accounts, ensuring efficient data management and security.
-                                    </li>
-                                    <li>
-                                        Integrated Livewire to facilitate real-time updates without page reloads, enhancing the overall responsiveness and user engagement of the platform.
-                                    </li>
-                                    <li>
-                                        Implemented features to facilitate seamless communication between candidates and employers, including messaging systems, job application tracking, and profile management tools.
-                                    </li>
-                                </ul>
-                                <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div x-data="{ id: $id('accordion') }" class="cursor-pointer group">
-                        <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-4 text-left select-none group-hover:underline">
-                            <span class="font-bold">Web Developer Intern at Byond Tech Global Berhad</span>
-                            <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </button>
-                        <div x-show="activeAccordion==id" x-collapse x-cloak>
-                            <div class="p-4 pt-0 opacity-70">
-                                <div class="flex gap-x-5">
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                                        </svg>
-                                        <span>Kuala Lumpur, Malaysia</span>
-                                    </div>
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                                        </svg>
-                                        <span>byond.tech</span>
-                                    </div>
-                                </div>
-                                <ul class="list-disc mb-4 px-4">
-                                    <li>
-                                        Implemented Bootstrap to ensure a responsive and visually appealing layout that adapts seamlessly across devices, providing an intuitive experience for both candidates and employers.
-                                    </li>
-                                    <li>
-                                        Leveraged Alpine.js to enhance frontend interactivity, enabling dynamic user interactions without the need for complex JavaScript frameworks.
-                                    </li>
-                                    <li>
-                                        Utilized Laravel's robust backend capabilities to handle user authentication, job postings, candidate profiles, and employer accounts, ensuring efficient data management and security.
-                                    </li>
-                                    <li>
-                                        Integrated Livewire to facilitate real-time updates without page reloads, enhancing the overall responsiveness and user engagement of the platform.
-                                    </li>
-                                    <li>
-                                        Implemented features to facilitate seamless communication between candidates and employers, including messaging systems, job application tracking, and profile management tools.
-                                    </li>
-                                </ul>
-                                <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div x-data="{ id: $id('accordion') }" class="cursor-pointer group">
-                        <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-4 text-left select-none group-hover:underline">
-                            <span class="font-bold">Part Time Web Developer at Mahiran Digital Sdn Bhd</span>
-                            <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </button>
-                        <div x-show="activeAccordion==id" x-collapse x-cloak>
-                            <div class="p-4 pt-0 opacity-70">
-                                <div class="flex gap-x-5">
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                                        </svg>
-                                        <span>Kuala Lumpur, Malaysia</span>
-                                    </div>
-                                    <div class="flex place-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                                        </svg>
-                                        <span>byond.tech</span>
-                                    </div>
-                                </div>
-                                <ul class="list-disc mb-4 px-4">
-                                    <li>
-                                        Implemented Bootstrap to ensure a responsive and visually appealing layout that adapts seamlessly across devices, providing an intuitive experience for both candidates and employers.
-                                    </li>
-                                    <li>
-                                        Leveraged Alpine.js to enhance frontend interactivity, enabling dynamic user interactions without the need for complex JavaScript frameworks.
-                                    </li>
-                                    <li>
-                                        Utilized Laravel's robust backend capabilities to handle user authentication, job postings, candidate profiles, and employer accounts, ensuring efficient data management and security.
-                                    </li>
-                                    <li>
-                                        Integrated Livewire to facilitate real-time updates without page reloads, enhancing the overall responsiveness and user engagement of the platform.
-                                    </li>
-                                    <li>
-                                        Implemented features to facilitate seamless communication between candidates and employers, including messaging systems, job application tracking, and profile management tools.
-                                    </li>
-                                </ul>
-                                <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                <span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">Alpine JS</span>
-                                <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Livewire</span>
-                                <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Bootstrap</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
         {{-- projects --}}
         <section class="h-screen" id="project">
             <div class="mt-5">
@@ -492,114 +325,67 @@
                     <h1 class="text-white font-extrabold text-5xl">Projects</h1>
                 </div>
                 {{-- <div class="flex gap-10 justify-center"> --}}
-                <div class="flex justify-center">
-                    <div
-                        x-data="{
-                            tabSelected: 1,
-                            tabId: $id('tabs'),
-                            tabButtonClicked(tabButton){
-                                this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
-                                this.tabRepositionMarker(tabButton);
-                            },
-                            tabRepositionMarker(tabButton){
-                                this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
-                                this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
-                                this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
-                            },
-                            tabContentActive(tabContent){
-                                return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
-                            }
-                        }"
-
-                        x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="w-full">
-
-                        {{-- tab labels --}}
-                        <div x-ref="tabButtons" class="relative inline-grid items-center justify-center w-full h-10 grid-cols-3 p-1 text-black bg-gray-400 rounded-lg select-none">
-                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Laravel</button>
-                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Tailwind CSS</button>
-                            <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button" class="relative z-20 inline-flex items-center justify-center w-full h-8 px-3 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap">Bootstrap</button>
-                            <div x-ref="tabMarker" class="absolute left-0 z-10 w-1/2 h-full duration-300 ease-out" x-cloak>
-                                <div class="w-full h-full bg-white rounded-md shadow-sm"></div>
-                            </div>
-                        </div>
-
-                        {{-- tab contents --}}
-                        <div class="relative w-full mt-5">
-                            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative">
-                                <div class="flex gap-5">
-                                    <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
-                                        <div class="relative">
-                                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
-                                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
-                                                <div>
-                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
-                                                </div>
-                                                <div>
-                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
-                                        <div class="relative">
-                                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
-                                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
-                                                <div>
-                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
-                                                </div>
-                                                <div>
-                                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" x-cloak>
-                                <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
-                                    <div class="relative">
-                                        <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
-                                        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
-                                            <div>
-                                                <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
-                                            </div>
-                                            <div>
-                                                <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    {{-- <div class="rounded-lg overflow-hidden bg-white text-neutral-700 shadow-sm w-[380px] relative group">
-                        <div class="relative">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto p-9" />
-                            <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 gap-4">
-                                <div>
-                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">View</a>
-                                </div>
-                                <div>
-                                    <a href="https://jobs.mysyarikat.com/jobs" class="bg-white text-black py-2 px-4 rounded-md font-bold">Project Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-
-
-                    {{-- <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" class="w-full h-auto" />
+                <div class="flex flex-wrap justify-center place-items-center gap-5">
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <div class="relative p-5">
+                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
                         </div>
                         <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">Product Name</h2>
+                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
                             <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">View Product</button>
+                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                View Project
+                            </button>
                         </div>
-                    </div> --}}
+                    </div>
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <div class="relative p-5">
+                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+                        </div>
+                        <div class="p-7">
+                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
+                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
+                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <div class="relative p-5">
+                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+                        </div>
+                        <div class="p-7">
+                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
+                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
+                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <div class="relative p-5">
+                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+                        </div>
+                        <div class="p-7">
+                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
+                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
+                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                        <div class="relative p-5">
+                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+                        </div>
+                        <div class="p-7">
+                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
+                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
+                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -711,27 +497,134 @@
         </section> --}}
 
         {{-- contact me --}}
-        {{-- <section class="h-screen bg-white" id="contact">
-            <div>
-                <div class="flex justify-center place-items-center">
-                    <h1 class="text-black font-extrabold text-5xl mb-5">Contact Me</h1>
-                </div>
-                <div class="flex justify-center">
-                    <!-- contact details -->
-                    <div></div>
+        <div class="flex justify-center">
+            <div class="bg-white border rounded-lg shadow-lg p-7 border-neutral-200/60 w-3/4">
+                <div class="flex justify-between py-7 px-5">
+                    <h1 class="text-4xl font-bold">Contact me</h1>
+                    <span>Interested in working together?</span>
+                    <div x-data="{ modalOpen: false }"
+                        @keydown.escape.window="modalOpen = false"
+                        :class="{ 'z-40': modalOpen }" class="relative w-auto h-auto">
+                        <button @click="modalOpen=true" class="inline-flex items-center justify-center h-10 px-4 py-2 text-sm font-medium transition-colors bg-black text-white border rounded-md hover:bg-neutral-100 active:bg-white focus:bg-white focus:text-black focus:outline-none focus:ring-2 focus:ring-neutral-200/60 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">Get in touch</button>
+                        <template x-teleport="body">
+                            <div x-show="modalOpen" class="fixed top-0 left-0 z-[99] flex items-center justify-center w-screen h-screen" x-cloak>
+                                <div x-show="modalOpen"
+                                    x-transition:enter="ease-out duration-300"
+                                    x-transition:enter-start="opacity-0"
+                                    x-transition:enter-end="opacity-100"
+                                    x-transition:leave="ease-in duration-300"
+                                    x-transition:leave-start="opacity-100"
+                                    x-transition:leave-end="opacity-0"
+                                    @click="modalOpen=false" class="absolute inset-0 w-full h-full bg-gray-900 bg-opacity-50 backdrop-blur-sm">
+                                </div>
 
-                    <!-- contact form -->
-                    <div></div>
+                                {{-- modal content --}}
+                                <div x-show="modalOpen"
+                                    x-trap.inert.noscroll="modalOpen"
+                                    x-transition:enter="ease-out duration-300"
+                                    x-transition:enter-start="opacity-0 scale-90"
+                                    x-transition:enter-end="opacity-100 scale-100"
+                                    x-transition:leave="ease-in duration-200"
+                                    x-transition:leave-start="opacity-100 scale-100"
+                                    x-transition:leave-end="opacity-0 scale-90"
+                                    class="relative w-full py-6 bg-white shadow-md px-7 bg-opacity-90 drop-shadow-md backdrop-blur-sm sm:max-w-lg sm:rounded-lg">
+                                    <div class="flex items-center justify-between pb-3">
+                                        <div>
+                                            <h3 class="text-lg font-semibold">Get in touch with me</h3>
+                                            <span class="text-sm text-gray-500">I'm ready to learn about your project. Leave your details below and I will get back to you ASAP</span>
+                                        </div>
+                                        <button @click="modalOpen=false" class="absolute top-0 right-0 flex items-center justify-center w-8 h-8 mt-5 mr-5 text-gray-600 rounded-full hover:text-gray-800 hover:bg-gray-50">
+                                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                                        </button>
+                                    </div>
+                                    <div class="relative w-auto pb-8">
+                                        {{-- <p>This is placeholder text. Replace it with your own content.</p> --}}
+                                        <form>
+                                            <div class="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                                                <div class="sm:col-span-3">
+                                                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Name</label>
+                                                    <div class="mt-2">
+                                                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                                    </div>
+                                                </div>
+
+                                                <div class="sm:col-span-3">
+                                                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                                                    <div class="mt-2">
+                                                        <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                                                <div class="sm:col-span-3">
+                                                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Type of project</label>
+                                                    <div class="mt-2">
+                                                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                                    </div>
+                                                </div>
+
+                                                <div class="sm:col-span-3">
+                                                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Budget</label>
+                                                    <div class="mt-2">
+                                                        <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-5 col-span-full">
+                                                <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Additional details</label>
+                                                <div class="mt-2">
+                                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="flex flex-col-reverse sm:flex-row sm:justify-between sm:space-x-2">
+                                        <button @click="modalOpen=false" type="button" class="inline-flex items-center justify-center h-10 px-4 py-2 text-sm font-medium text-white transition-colors border border-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-900 focus:ring-offset-2 bg-neutral-950 hover:bg-neutral-900">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
                 </div>
             </div>
-        </section> --}}
+        </div>
+
+        <footer class="h-screen bg-white" id="contact">
+            <div class="grid justify-center">
+                <div class="flex justify-center">
+                    <img class="h-96" src="{{ asset('images/logo.png') }}" alt="">
+                </div>
+                <div class="flex flex-col justify-center place-items-center gap-y-10">
+                    {{-- slogan --}}
+                    <div>
+                        <h2 class="text-3xl font-bold">Code Your Dreams,</h2>
+                        <h2 class="text-3xl font-bold">Design Your Future</h2>
+                    </div>
+
+                    {{-- icons.links --}}
+                    <div class="flex gap-x-3">
+                        <a href="https://www.linkedin.com/in/nur-hasya-binti-mohd-nordin-23436b236" target="_BLANK" type="button" class="inline-flex items-center justify-center p-3 text-sm font-medium tracking-wide text-white transition-colors duration-200 rounded-full bg-white hover:bg-neutral-400 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+                            <img class="h-5" src="{{ asset('images/icons/linkedin-logo.svg') }}" alt="">
+                        </a>
+                        <a href="https://github.com/nrhsya" target="_BLANK" type="button" class="inline-flex items-center justify-center p-3 text-sm font-medium tracking-wide text-white transition-colors duration-200 rounded-full bg-white hover:bg-neutral-400 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+                            <img class="h-5" src="{{ asset('images/icons/github-logo.svg') }}" alt="">
+                        </a>
+                    </div>
+
+                    {{-- copyright --}}
+                    <div>
+                        <span class="text-sm text-gray-500">All rights reserved</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script>
             window.addEventListener('scroll', function() {
             var navbar = document.getElementById('navbar');
             var scrollPosition = window.scrollY;
 
-            if (scrollPosition > 200) { // Change this value to your desired scroll height
+            if (scrollPosition > 200) {
                 navbar.classList.add('hidden');
             } else {
                 navbar.classList.remove('hidden');
