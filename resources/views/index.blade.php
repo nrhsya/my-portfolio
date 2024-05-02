@@ -186,15 +186,16 @@
                 <section class="one clearfix">
                     <div class="left">
                         {{-- experience 1 --}}
+                        @foreach ($experiences as $experience)
                         <div>
                             <div class="flex">
                                 <div>
-                                    <span class="text-gray-400">March 2023 - present</span>
+                                    <span class="text-gray-400">{{ date('F Y', strtotime($experience->start_date)) }} - {{ date('F Y', strtotime($experience->end_date)) }}</span>
                                 </div>
                                 <div class="flex flex-col gap-2">
-                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
+                                    <span class="text-white">{{ $experience->job_title }} at {{ $experience->company_name }}</span>
                                     <span class="text-gray-400">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                        {{ $experience->description }}
                                     </span>
                                     <div>
                                         <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
@@ -205,71 +206,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        {{-- experience 2 --}}
-                        <div>
-                            <div class="flex">
-                                <div>
-                                    <span class="text-gray-400">March 2023 - present</span>
-                                </div>
-                                <div class="flex flex-col gap-2">
-                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
-                                    <span class="text-gray-400">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    </span>
-                                    <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- experience 3 --}}
-                        <div>
-                            <div class="flex">
-                                <div>
-                                    <span class="text-gray-400">March 2023 - present</span>
-                                </div>
-                                <div class="flex flex-col gap-2">
-                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
-                                    <span class="text-gray-400">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    </span>
-                                    <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Tailwind CSS</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- experience 4 --}}
-                        <div>
-                            <div class="flex">
-                                <div>
-                                    <span class="text-gray-400">March 2023 - present</span>
-                                </div>
-                                <div class="flex flex-col gap-2">
-                                    <span class="text-white">Web Developer at Byond Tech Global Berhad</span>
-                                    <span class="text-gray-400">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    </span>
-                                    <div>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Laravel</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Alpine JS</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Livewire</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Bootstrap</span>
-                                        <span class="inline-flex items-center rounded-md bg-gray-400 px-2 py-1 text-xs font-medium text-gray-950 ring-1 ring-inset ring-gray-500/10">Tailwind CSS</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
 
                         {{-- <div></div>
                         <div></div>
@@ -279,7 +216,7 @@
                         <div class="right-child">
                             {{-- <img src="{{ asset('images/experience.png') }}" /> --}}
                             <h2 class="text-white text-right py-10 font-bold text-5xl">Experiences</h2>
-                            <span class="text-white text-right">These are the projects I have worked on</span>
+                            {{-- <span class="text-white text-right">These are my experiences</span> --}}
                         </div>
                     </div>
                 </section>
@@ -326,66 +263,22 @@
                 </div>
                 {{-- <div class="flex gap-10 justify-center"> --}}
                 <div class="flex flex-wrap justify-center place-items-center gap-5">
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative p-5">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+
+                    @foreach ($projects as $project)
+                        <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
+                            {{-- <div class="relative p-5">
+                                <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
+                            </div> --}}
+                            <div class="p-7">
+                                <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">{{ $project->name }}</h2>
+                                <p class="mb-5 text-neutral-500">{{ $project->description }}</p>
+                                <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
+                                    View Project
+                                </button>
+                            </div>
                         </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                                View Project
-                            </button>
-                        </div>
-                    </div>
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative p-5">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
-                        </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                                View Project
-                            </button>
-                        </div>
-                    </div>
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative p-5">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
-                        </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                                View Project
-                            </button>
-                        </div>
-                    </div>
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative p-5">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
-                        </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                                View Project
-                            </button>
-                        </div>
-                    </div>
-                    <div class="rounded-lg overflow-hidden border border-neutral-200/60 bg-white text-neutral-700 shadow-sm w-[380px]">
-                        <div class="relative p-5">
-                            <img src="{{ asset('images/logo_jobportal.png') }}" class="w-full h-auto" />
-                        </div>
-                        <div class="p-7">
-                            <h2 class="mb-2 text-lg font-bold leading-none tracking-tight">MySyarikat Jobs</h2>
-                            <p class="mb-5 text-neutral-500">This card element can be used to display a product, post, or any other type of data.</p>
-                            <button class="inline-flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-medium text-white transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-neutral-950 hover:bg-neutral-950/90">
-                                View Project
-                            </button>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
             </div>
         </section>
