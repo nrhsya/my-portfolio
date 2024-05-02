@@ -1,0 +1,21 @@
+models:
+  Experience:
+    job_title: string:50
+    company_name: string:50
+    location: string:50
+    start_date: date
+    end_date: date
+    description: text
+    softDeletes
+  Project:
+    name: string:50
+    description: text
+  Skill:
+    name: string:50
+    slug: text
+  Client:
+    name: string:50
+    email: email
+    project_type: string:50
+    budget: decimal
+    description: text

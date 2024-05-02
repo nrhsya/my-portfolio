@@ -1,0 +1,19 @@
+created:
+    - database/factories/ExperienceFactory.php
+    - database/factories/ProjectFactory.php
+    - database/factories/SkillFactory.php
+    - database/factories/ClientFactory.php
+    - database/migrations/2024_04_30_071856_create_experiences_table.php
+    - database/migrations/2024_04_30_071857_create_projects_table.php
+    - database/migrations/2024_04_30_071858_create_skills_table.php
+    - database/migrations/2024_04_30_071859_create_clients_table.php
+    - app/Models/Experience.php
+    - app/Models/Project.php
+    - app/Models/Skill.php
+    - app/Models/Client.php
+models:
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string nullable' }
+    Experience: { job_title: 'string:50', company_name: 'string:50', location: 'string:50', start_date: date, end_date: date, description: text, softdeletes: softDeletes }
+    Project: { name: 'string:50', description: text }
+    Skill: { name: 'string:50', slug: text }
+    Client: { name: 'string:50', email: email, project_type: 'string:50', budget: decimal, description: text }
